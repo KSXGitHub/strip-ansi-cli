@@ -1,8 +1,27 @@
 [package]
 name = "strip-ansi-cli"
+description = "Strip ANSI escape sequences from text"
 version = "0.0.0"
 authors = ["khai96_ <hvksmr1996@gmail.com>"]
 edition = "2018"
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/strip-ansi-cli"
+repository = "https://github.com/KSXGitHub/strip-ansi-cli.git"
+keywords = [
+  "color",
+  "escape",
+  "ansi",
+  "strip-ansi",
+  "cli",
+]
+categories = ["command-line-utilities"]
+include = [
+  "/src",
+  "/Cargo.toml",
+  "/README.md",
+  "/LICENSE.md",
+]
 
 [lib]
 name = "strip_ansi_cli"
