@@ -12,6 +12,10 @@ path = "src/lib.rs"
 name = "strip-ansi"
 path = "src/main.rs"
 
+[[bin]]
+name = "strip-ansi-completions"
+path = "src/sub/completions/main.rs"
+
 [dependencies]
 strip-ansi-escapes = "^0.1.0"
 structopt = "0.3.17"
