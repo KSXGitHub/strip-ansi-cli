@@ -1,0 +1,18 @@
+[package]
+name = "strip-ansi-cli"
+version = "0.0.0"
+authors = ["khai96_ <hvksmr1996@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "strip_ansi_cli"
+path = "src/lib.rs"
+
+[[bin]]
+name = "strip-ansi"
+path = "src/main.rs"
+
+[dependencies]
+strip-ansi-escapes = "^0.1.0"
+structopt = "0.3.17"
+structopt-utilities = "0.0.7"
