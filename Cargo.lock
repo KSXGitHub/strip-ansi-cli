@@ -123,6 +123,7 @@ dependencies = [
 name = "strip-ansi-cli"
 version = "0.0.0"
 dependencies = [
+ "pipe-trait",
  "strip-ansi-escapes",
  "structopt",
  "structopt-utilities",
