@@ -37,6 +37,6 @@ path = "src/sub/completions/main.rs"
 
 [dependencies]
 strip-ansi-escapes = "^0.1.0"
-structopt = "^0.3.17"
+structopt = "^0.3.21"
 structopt-utilities = "^0.0.8"
 pipe-trait = "^0.2.1"
