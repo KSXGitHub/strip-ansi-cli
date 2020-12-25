@@ -121,7 +121,7 @@ dependencies = [
 
 [[package]]
 name = "strip-ansi-cli"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "pipe-trait",
  "strip-ansi-escapes",
