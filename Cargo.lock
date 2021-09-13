@@ -79,12 +79,6 @@ checksum = "f2f96b10ec2560088a8e76961b00d47107b3a625fecb76dedb29ee7ccbf98235"
 
 [[package]]
 name = "pipe-trait"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7d4c36ce339a5efdc0e3e60766952bc1df1b9e2b80cb14f1502c00aa90070ce0"
-
-[[package]]
-name = "pipe-trait"
 version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3fd92f5561e74c246a0b7332e09d2364afb40b67d152c4520b3ba2a7d3dea5b3"
@@ -135,7 +129,7 @@ dependencies = [
 name = "strip-ansi-cli"
 version = "0.1.0"
 dependencies = [
- "pipe-trait 0.3.2",
+ "pipe-trait",
  "strip-ansi-escapes",
  "structopt",
  "structopt-utilities",
@@ -158,9 +152,9 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 
 [[package]]
 name = "structopt"
-version = "0.3.21"
+version = "0.3.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5277acd7ee46e63e5168a80734c9f6ee81b1367a7d8772a2d765df2a3705d28c"
+checksum = "bf9d950ef167e25e0bdb073cf1d68e9ad2795ac826f2f3f59647817cf23c0bfa"
 dependencies = [
  "clap",
  "lazy_static",
@@ -169,9 +163,9 @@ dependencies = [
 
 [[package]]
 name = "structopt-derive"
-version = "0.4.14"
+version = "0.4.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5ba9cdfda491b814720b6b06e0cac513d922fc407582032e8706e9f137976f90"
+checksum = "134d838a2c9943ac3125cf6df165eda53493451b719f3255b2a26b85f772d0ba"
 dependencies = [
  "heck",
  "proc-macro-error",
@@ -182,11 +176,11 @@ dependencies = [
 
 [[package]]
 name = "structopt-utilities"
-version = "0.0.8"
+version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "397e6483e84c1d75b05a077dbbc860d546d56f6527cee877c4d73e1a710b4d28"
+checksum = "86d8a1aea356c5b00463fad9e975ff02d097a360a2efadf4bc1dfbdf35302b71"
 dependencies = [
- "pipe-trait 0.2.1",
+ "pipe-trait",
  "structopt",
 ]
 
