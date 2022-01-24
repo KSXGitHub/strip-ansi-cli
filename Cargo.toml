@@ -39,7 +39,7 @@ path = "src/sub/completions/main.rs"
 strip-ansi-escapes = "^0.1.1"
 structopt = "^0.3.26"
 structopt-utilities = "^0.1.0"
-pipe-trait = "^0.3.2"
+pipe-trait = "^0.4.0"
 
 [profile.release]
 opt-level = "s"
