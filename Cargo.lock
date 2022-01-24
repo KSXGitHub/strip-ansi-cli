@@ -79,9 +79,9 @@ checksum = "f2f96b10ec2560088a8e76961b00d47107b3a625fecb76dedb29ee7ccbf98235"
 
 [[package]]
 name = "pipe-trait"
-version = "0.3.2"
+version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3fd92f5561e74c246a0b7332e09d2364afb40b67d152c4520b3ba2a7d3dea5b3"
+checksum = "255eae82c4a296100bfd1ef324fcec47560e40f1895738b000ec3dc33f87bf93"
 
 [[package]]
 name = "proc-macro-error"
