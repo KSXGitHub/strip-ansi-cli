@@ -82,12 +82,8 @@ jobs:
           override: 'true'
           default: 'true'
 
-      - name: Use clippy to lint code
-        uses: actions-rs/clippy-check@v1
-        with:
-          name: Clippy Report (${{ hashFiles('rust-toolchain') }}, ${{ matrix.os }})
-          token: ${{ secrets.GITHUB_TOKEN }}
-          args: --all-features --all-targets -- -D warnings
+      - name: Use Clippy to lint code
+        run: cargo clippy --all-features --all-targets -- -D warnings
 
   fmt_check:
     name: Fmt
