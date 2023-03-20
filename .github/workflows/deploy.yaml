@@ -410,7 +410,7 @@ jobs:
         run: ./ci/github-actions/generate-pkgbuild.py3
 
       - name: Publish strip-ansi to the AUR
-        uses: KSXGitHub/github-actions-deploy-aur@v2.3.0
+        uses: KSXGitHub/github-actions-deploy-aur@v2.7.0
         with:
           pkgname: strip-ansi
           pkgbuild: ./pkgbuild/strip-ansi/PKGBUILD
@@ -420,7 +420,7 @@ jobs:
           commit_message: ${{ needs.create_release.outputs.release_tag }}
 
       - name: Publish strip-ansi-bin to the AUR
-        uses: KSXGitHub/github-actions-deploy-aur@v2.3.0
+        uses: KSXGitHub/github-actions-deploy-aur@v2.7.0
         with:
           pkgname: strip-ansi-bin
           pkgbuild: ./pkgbuild/strip-ansi-bin/PKGBUILD
