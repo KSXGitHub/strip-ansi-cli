@@ -1,7 +1,6 @@
 # strip-ansi-cli
 
 [![Test](https://github.com/KSXGitHub/strip-ansi-cli/workflows/Test/badge.svg)](https://github.com/KSXGitHub/strip-ansi-cli/actions?query=workflow%3ATest)
-[![Travis Build Status](https://img.shields.io/travis/KSXGitHub/strip-ansi-cli/master?label=build&logo=travis)](https://travis-ci.org/KSXGitHub/strip-ansi-cli)
 [![Crates.io Version](https://img.shields.io/crates/v/strip-ansi-cli?logo=rust)](https://crates.io/crates/strip-ansi-cli)
 
 Strip ANSI escape sequences from text.
