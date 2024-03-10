@@ -14,7 +14,7 @@ jobs:
       fail-fast: true
       matrix:
         toolchain:
-          - nightly-2020-09-28
+          - nightly-2024-03-10
         os:
           - ubuntu-latest
           - windows-latest
