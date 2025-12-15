@@ -78,7 +78,7 @@ jobs:
         run: strip --strip-all target/${{ matrix.target }}/release/strip-ansi
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: strip-ansi-${{ matrix.target }}
           path: target/${{ matrix.target }}/release/strip-ansi
@@ -114,7 +114,7 @@ jobs:
         run: strip target/${{ matrix.target }}/release/strip-ansi
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: strip-ansi-${{ matrix.target }}
           path: target/${{ matrix.target }}/release/strip-ansi
@@ -148,7 +148,7 @@ jobs:
         run: cargo build --target ${{ matrix.target }} --release
 
       - name: Upload build artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: strip-ansi-${{ matrix.target }}
           path: target/${{ matrix.target }}/release/strip-ansi.exe
@@ -340,7 +340,7 @@ jobs:
         run: ./ci/github-actions/create-checksums.sh
 
       - name: Upload as artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: checksums
           path: sha*sum.txt
